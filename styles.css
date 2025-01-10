@@ -1,0 +1,25 @@
+/*fontlar*/
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1rem;
+    color: rgb(40, 38, 38);
+  }
+
+/*blog metni*/
+.blog-post{
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*blog paragraf*/
+.blog-p{
+    text-align: justify;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.flex-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
