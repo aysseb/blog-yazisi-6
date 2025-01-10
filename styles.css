@@ -1,11 +1,11 @@
 /*fontlar*/
 .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1rem;
-    color: white;
-  }
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+}
 
 .poppins-medium {
   font-family: "Poppins", serif;
@@ -24,7 +24,6 @@
 /*linkler*/
 .blog-a {
   text-decoration: none;
-  
 }
 /*buton*/
 .blog-buton {
@@ -33,8 +32,15 @@
   border-radius: 32px;
   padding: 0.5rem 4rem;
   border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
-
+.blog-buton:hover {
+  background-color: rgb(100, 96, 96);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 /*blog metni*/
 .blog-post {
   max-width: 800px;
@@ -70,32 +76,35 @@
   gap: 1rem;
 }
 /*maddeler*/
-.section2, .section3, .section4, .section5, .section6{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-   
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
-@media all and (max-width:576px){
-    .blog-post{
-        margin:  0.5rem 0.5rem;
-    }
-    .flex-img {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .flex-sec {
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-      }  
-      .section2, .section3, .section4, .section5, .section6{
-        border-bottom: 1px solid rgb(71, 67, 67);
-        
-       
-    }
-
-
+@media all and (max-width: 576px) {
+  .blog-post {
+    margin: 0.5rem 0.5rem;
+  }
+  .flex-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-sec {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    border-bottom: 1px solid rgb(71, 67, 67);
+  }
 }
